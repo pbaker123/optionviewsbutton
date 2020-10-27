@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option Set Screen Buttons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="saveReturn"></div>
+    <div class="cancelA"></div>
+    <div class="save"></div>
+    <div class="cancelB"></div>
+    <div class="resetDefault"></div>
+    <div class="optionViews"></div>
+    <div class="details">
+      <div class="saveReturnDetail">
+        <ul>
+          <li>Commits in the database any changes made to any configuration option since entering the options view screen</li>
+          <li>Once committed, changes are immediately available for replication to CHEC Lanes</li>
+          <li>The Options View Screen is exited and the Option Sets Screen is displayed</li>
+        </ul>
+      </div>
+      <div class="cancelADetail">
+        <ul>
+          <li>Undoes any changes made since entering the Options View Screen</li>
+          <li>The Options View Screen is exited and the Option Sets Screen is displayed</li>
+        </ul>
+      </div>
+      <div class="saveDetail">
+        <ul>
+          <li>Records the changes made to the currently selected configuration option</li>
+          <li>Only effects changes made since selecting the configuration option</li>
+        </ul>
+      </div>
+      <div class="cancelBDetail">
+        <ul>
+          <li>Undoes any changes made to the currently selected configuration option</li>
+          <li>Only effects changes made since selecting the configuration option</li>
+        </ul>
+      </div>
+      <div class="resetDefaultDetail">
+        <ul>
+          <li>Removes any changes to the configuration option</li>
+          <li>The configuration option will no be displayed in bold and italics at the Options View Screen</li>
+          <li>The configuration option will no longer be counted in the paranthesis in the Option Set at the Option Set Screen</li>
+        </ul>
+      </div>
+      <div class="optionViewsDetail">
+        <ul>
+          <li>The Options View Screen displays the configuration options sorted in these option view tabs</li>
+          <li>The option view tabs were described in detail in the previous section</li>
+        </ul>
+      </div>
+    </div>
+    <div class="label">
+      <p class="saveReturnLabel">Save & Return Button</p>
+      <p class="cancelALabel">Cancel (Top) Button</p>
+      <p class="saveLabel">Save Button</p>
+      <p class="cancelBLabel">Cancel (Bottom) Button</p>
+      <p class="resetDefaultLabel">Reset Default Button</p>
+      <p class="optionViewsLabel">Option View Tabs</p>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+main {
+  height: 520px;
+  width: 1000px;
+  background-image: url(images/OptionViews.png);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  padding: 10px 0px 10px 0px;
+}
+
+.saveReturn {
+  width: 136px;
+  height: 28px;
+  position: relative;
+  top: 81px;
+  left: 847px;
+  z-index: 99;
+}
+
+.cancelA {
+  width: 136px;
+  height: 28px;
+  position: relative;
+  top: 107px;
+  left: 847px;
+  z-index: 99;
+}
+
+.save {
+  width: 150px;
+  height: 27px;
+  position: relative;
+  top: 413px;
+  left: 414px;
+  z-index: 99;
+}
+
+.cancelB {
+  width: 150px;
+  height: 27px;
+  position: relative;
+  top: 386px;
+  left: 574px;
+  z-index: 99;
+}
+
+.resetDefault {
+  width: 150px;
+  height: 27px;
+  position: relative;
+  top: 359px;
+  left: 734px;
+  z-index: 99;
+}
+
+.optionViews {
+  width: 388px;
+  height: 47px;
+  position: relative;
+  top: -65px;
+  left: 11px;
+  z-index: 99;
+}
+
+.details {
+  width: 391px;
+  height: 345px;
+  position: relative;
+  top: -81px;
+  left: 12px;
+}
+
+.label {
+  width: 437px;
+  height: 105px;
+  position: relative;
+  top: -506px;
+  left: 408px;
+  z-index: 1;
+}
+
+.saveReturnLabel,
+.cancelALabel,
+.saveLabel,
+.cancelBLabel,
+.resetDefaultLabel,
+.optionViewsLabel,
+.saveReturnDetail,
+.cancelADetail,
+.saveDetail,
+.cancelBDetail,
+.resetDefaultDetail,
+.optionViewsDetail {
+  display: none;
+}
+
+.saveReturnLabel,
+.cancelALabel,
+.saveLabel,
+.cancelBLabel,
+.resetDefaultLabel,
+.optionViewsLabel {
+  text-align: center;
+  line-height: 105px;
+  font-size: 30px;
+}
