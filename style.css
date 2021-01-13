@@ -1,15 +1,42 @@
+html {
+  transform: matrix(0.2,0,0,0.2,-80,-210);
+}
+
+@media only screen and (min-width: 367px) {
+  html {
+    transform: matrix(0.36,0,0,0.36,-115,-170);
+  }
+}
+
+@media only screen and (min-width: 384px) {
+  html {
+    transform: matrix(0.38,0,0,0.38,-115,-165);
+  }
+}
+
+@media only screen and (min-width: 563px) {
+  html {
+    transform: matrix(0.56,0,0,0.56,-125,-115);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    transform: scale(1);
+  }
+}
+
 body {
   overflow: hidden;
   cursor: pointer;
   user-select: none;
 }
 
-
 main {
   height: 520px;
   width: 1000px;
-  background-image: url(images/OptionViews.png);
-  margin: 0 auto;
+  background-image: url(images/background.png);
+  margin: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,99 +44,73 @@ li {
   padding: 10px 0px 10px 0px;
 }
 
-.saveReturn {
-  width: 136px;
-  height: 28px;
-  position: relative;
-  top: 81px;
-  left: 847px;
-  z-index: 99;
-}
-
-.cancelA {
-  width: 136px;
-  height: 28px;
-  position: relative;
-  top: 107px;
-  left: 847px;
-  z-index: 99;
-}
-
-.save {
-  width: 150px;
+.export {
+  width: 78px;
   height: 27px;
   position: relative;
-  top: 413px;
-  left: 414px;
+  top: 63px;
+  left: 792px;
   z-index: 99;
 }
 
-.cancelB {
-  width: 150px;
+.import {
+  width: 78px;
   height: 27px;
   position: relative;
-  top: 386px;
-  left: 574px;
+  top: 36px;
+  left: 890px;
   z-index: 99;
 }
 
-.resetDefault {
-  width: 150px;
-  height: 27px;
+.exit {
+  width: 95px;
+  height: 46px;
   position: relative;
-  top: 359px;
-  left: 734px;
-  z-index: 99;
+  top: 381px;
+  left: 703px;
 }
 
-.optionViews {
-  width: 388px;
-  height: 47px;
+.next {
+  width: 95px;
+  height: 46px;
   position: relative;
-  top: -65px;
-  left: 11px;
-  z-index: 99;
+  top: 335px;
+  left: 813px;
 }
 
 .details {
-  width: 391px;
-  height: 345px;
+  width: 489px;
+  height: 306px;
   position: relative;
-  top: -81px;
-  left: 12px;
+  top: -68px;
+  left: 18px;
 }
 
 .label {
-  width: 437px;
-  height: 105px;
+  width: 452px;
+  height: 145px;
   position: relative;
-  top: -506px;
-  left: 408px;
+  top: -385px;
+  left: 528px;
   z-index: 1;
 }
 
-.saveReturnLabel,
-.cancelALabel,
-.saveLabel,
-.cancelBLabel,
-.resetDefaultLabel,
-.optionViewsLabel,
-.saveReturnDetail,
-.cancelADetail,
-.saveDetail,
-.cancelBDetail,
-.resetDefaultDetail,
-.optionViewsDetail {
+.exportLabel,
+.importLabel,
+.nextLabel,
+.exitLabel,
+.exportDetail,
+.importDetail,
+.nextDetail,
+.exitDetail {
   display: none;
 }
 
-.saveReturnLabel,
-.cancelALabel,
-.saveLabel,
-.cancelBLabel,
-.resetDefaultLabel,
-.optionViewsLabel {
+.exportLabel,
+.importLabel,
+.nextLabel,
+.exitLabel {
   text-align: center;
-  line-height: 105px;
-  font-size: 30px;
+  line-height: 145px;
+  font-size: 50px;
 }
