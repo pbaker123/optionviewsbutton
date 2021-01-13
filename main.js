@@ -2,7 +2,7 @@ const selectors = {
   body: document.querySelector("body"),
 };
 
-const buttons = ["export","import","next","exit"];
+const buttons = ["saveReturn","cancelA","save","cancelB","resetDefault","optionViews"];
 
 selectors.body.addEventListener("click", function(event) {
   const classname = event.target.className;

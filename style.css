@@ -35,8 +35,8 @@ body {
 main {
   height: 520px;
   width: 1000px;
-  background-image: url(images/background.png);
-  margin: auto;
+  background-image: url(images/OptionViews.png);
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -44,73 +44,99 @@ li {
   padding: 10px 0px 10px 0px;
 }
 
-.export {
-  width: 78px;
-  height: 27px;
+.saveReturn {
+  width: 136px;
+  height: 28px;
   position: relative;
-  top: 63px;
-  left: 792px;
+  top: 81px;
+  left: 847px;
   z-index: 99;
 }
 
-.import {
-  width: 78px;
-  height: 27px;
+.cancelA {
+  width: 136px;
+  height: 28px;
   position: relative;
-  top: 36px;
-  left: 890px;
+  top: 107px;
+  left: 847px;
   z-index: 99;
 }
 
-.exit {
-  width: 95px;
-  height: 46px;
+.save {
+  width: 150px;
+  height: 27px;
   position: relative;
-  top: 381px;
-  left: 703px;
+  top: 413px;
+  left: 414px;
+  z-index: 99;
 }
 
-.next {
-  width: 95px;
-  height: 46px;
+.cancelB {
+  width: 150px;
+  height: 27px;
   position: relative;
-  top: 335px;
-  left: 813px;
+  top: 386px;
+  left: 574px;
+  z-index: 99;
+}
+
+.resetDefault {
+  width: 150px;
+  height: 27px;
+  position: relative;
+  top: 359px;
+  left: 734px;
+  z-index: 99;
+}
+
+.optionViews {
+  width: 388px;
+  height: 47px;
+  position: relative;
+  top: -65px;
+  left: 11px;
+  z-index: 99;
 }
 
 .details {
-  width: 489px;
-  height: 306px;
+  width: 391px;
+  height: 345px;
   position: relative;
-  top: -68px;
-  left: 18px;
+  top: -81px;
+  left: 12px;
 }
 
 .label {
-  width: 452px;
-  height: 145px;
+  width: 437px;
+  height: 105px;
   position: relative;
-  top: -385px;
-  left: 528px;
+  top: -506px;
+  left: 408px;
   z-index: 1;
 }
 
-.exportLabel,
-.importLabel,
-.nextLabel,
-.exitLabel,
-.exportDetail,
-.importDetail,
-.nextDetail,
-.exitDetail {
+.saveReturnLabel,
+.cancelALabel,
+.saveLabel,
+.cancelBLabel,
+.resetDefaultLabel,
+.optionViewsLabel,
+.saveReturnDetail,
+.cancelADetail,
+.saveDetail,
+.cancelBDetail,
+.resetDefaultDetail,
+.optionViewsDetail {
   display: none;
 }
 
-.exportLabel,
-.importLabel,
-.nextLabel,
-.exitLabel {
+.saveReturnLabel,
+.cancelALabel,
+.saveLabel,
+.cancelBLabel,
+.resetDefaultLabel,
+.optionViewsLabel {
   text-align: center;
-  line-height: 145px;
-  font-size: 50px;
+  line-height: 105px;
+  font-size: 30px;
 }
